@@ -11,6 +11,7 @@
 		5E9076962B6150030093671D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9076952B6150030093671D /* ContentView.swift */; };
 		5E9076982B6150050093671D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9076972B6150050093671D /* Assets.xcassets */; };
 		5E90769B2B6150050093671D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E90769A2B6150050093671D /* Preview Assets.xcassets */; };
+		5E9076A32B6156450093671D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9076A22B6156450093671D /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5E9076952B6150030093671D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E9076972B6150050093671D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E90769A2B6150050093671D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E9076A22B6156450093671D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		5E9076922B6150030093671D /* NumberGuessingGame */ = {
 			isa = PBXGroup;
 			children = (
+				5E9076A12B61562E0093671D /* Model */,
 				5E9076932B6150030093671D /* NumberGuessingGameApp.swift */,
 				5E9076952B6150030093671D /* ContentView.swift */,
 				5E9076972B6150050093671D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				5E90769A2B6150050093671D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E9076A12B61562E0093671D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E9076A22B6156450093671D /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9076962B6150030093671D /* ContentView.swift in Sources */,
+				5E9076A32B6156450093671D /* Game.swift in Sources */,
 				5E9076942B6150030093671D /* NumberGuessingGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
