@@ -10,19 +10,20 @@ struct Game {
     var target = Double.random(in: 0...1)
     var n = 0
     var status = false
+
     var msg = ""
     mutating func check(guess: Double) {
         let guessNum = lround(guess*100)
         let check = lround(target*100)
         if guessNum == check {
-            msg = "You won in \(n) tries!"
+            msg = "You won \n in \(n) tries!"
             status = true
         } else if guessNum < check {
-            msg = "Greater than \(guessNum) !!"
+            msg = "The number is greater than \(guessNum) !!"
             n += 1
             status = false
         } else {
-            msg = "Less than \(guessNum) !!"
+            msg = "The number is less than \(guessNum) !!"
             n += 1
             status = false
         }
