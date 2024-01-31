@@ -16,8 +16,8 @@ This game is a number guessing game where the player has to guess a number, and 
 <img src="media/guessNumber.png" width=30%>
 
 * The game will pop up a message to give a hint to the player, indicating whether the guessed number is higher or lower than the correct number.
-<img src="media/lessThan.png" width=30%>
-<img src="media/greaterThan.png" width=30%>
+<img src="media/lessthan.png" width=30%>
+<img src="media/greaterthan.png" width=30%>
 
 * When the player correctly guesses the number, the game will display a message stating their victory and show the total number of attempts before making the correct guess. After click OK, the game will restart.
 <img src="media/won.png" width=30%>
